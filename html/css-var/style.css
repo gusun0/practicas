@@ -1,0 +1,17 @@
+:root{ 
+ --text-color: red;
+ --asd: solid 1px #111;
+}
+
+.section-one{ 
+ --text-size: 50px;
+}
+
+.section-one p{ 
+ font-size: var(--text-size);
+}
+
+.section-two p{
+ color: var(--text-color);
+
+}

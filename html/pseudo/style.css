@@ -1,0 +1,60 @@
+/* Pseudo Classes */
+
+/*:root{
+ color: red;
+}
+*/
+
+body{
+	background-color: black;
+	color: white;
+}
+
+
+a:visited{
+ color: green;
+
+}
+
+
+.list-example-1 p:last-child{
+ background-color: blue;
+}
+
+
+.list-example-2 p:nth-child(2n+1){
+ color:pink;
+}
+
+
+
+/* Pseudo Elements */
+
+.element-1::first-line{
+ background-color: yellow;
+ color:red;
+}
+
+
+.element-2::first-letter{
+ background-color: green; 
+ color: white;
+}
+
+
+.element-3::selection{
+	background-color: green;
+	color: blue;
+}
+
+.element-4::before{
+// content: "this is a paragraph-";  
+content: attr(class);
+
+}
+
+.element-4::after{
+ //content: " -- HOLA";  
+ content: url(img/image.png);
+
+}
